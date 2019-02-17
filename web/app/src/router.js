@@ -73,6 +73,11 @@ export default new Router({
       path: "/vote",
       name: "vote",
       component: () => import("./views/PageVote.vue")
+    },
+    {
+      path: "/convince-my-boss",
+      name: "cmb",
+      component: () => import("./views/PageConvinceMyBoss.vue")
     }
   ]
 });

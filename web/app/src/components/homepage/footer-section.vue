@@ -40,6 +40,8 @@
         
         <router-link class="link" :to="{ name: 'press' }">press material</router-link>
 
+        <router-link class="link" :to="{ name: 'cmb' }">Convince my boss</router-link>
+
         <!-- <router-link class="link" :to="{ name: 'speakers' }">speakers</router-link> -->
         <!-- <a
           class="link external"
